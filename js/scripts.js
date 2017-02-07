@@ -1,14 +1,8 @@
 $(document).ready(function(){
     $(".questionOne").click(function(){
-      $(".answerOne").fadeIn();
-        $(".questionOne").click(function(){
-          $(".answerOne").fadeOut();
-        });
+      $(".answerOne").fadeToggle();
     });
     $(".questionTwo").click(function(){
-      $(".answerTwo").fadeIn();
-        $(".questionTwo").click(function(){
-          $(".answerTwo").fadeOut();
-        });
+      $(".answerTwo").fadeToggle();
     });
 });
