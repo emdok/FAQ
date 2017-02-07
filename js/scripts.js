@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $(".questionOne").click(function(){
+      $(".answerOne").fadeIn();
+        $(".questionOne").click(function(){
+          $(".answerOne").fadeOut();
+        });
+    });
+    $(".questionTwo").click(function(){
+      $(".answerTwo").fadeIn();
+        $(".questionTwo").click(function(){
+          $(".answerTwo").fadeOut();
+        });
+    });
+});
